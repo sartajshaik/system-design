@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T21:02:52.898Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" version="16.6.5" etag="j2xPjcypgTupJiJ-PD26" type="github"><diagram id="EWvdREkstHrh5KVWhsYN">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-02T23:28:50.189Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="Kx7TL06jFevr64rpPYrI" version="16.6.5" type="github">
+  <diagram id="EWvdREkstHrh5KVWhsYN" name="Page-1">
+    <mxGraphModel dx="927" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4bt97GnRVWRMclvVXi_r-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4bt97GnRVWRMclvVXi_r-1" target="4bt97GnRVWRMclvVXi_r-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4bt97GnRVWRMclvVXi_r-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4bt97GnRVWRMclvVXi_r-1" target="4bt97GnRVWRMclvVXi_r-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4bt97GnRVWRMclvVXi_r-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4bt97GnRVWRMclvVXi_r-1" target="4bt97GnRVWRMclvVXi_r-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4bt97GnRVWRMclvVXi_r-1" value="Simple Protect (React )" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="70" y="70" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4bt97GnRVWRMclvVXi_r-2" value="Magnum (Rule Engine)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="70" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4bt97GnRVWRMclvVXi_r-3" value="Appian (Work Bench)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="490" y="70" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4bt97GnRVWRMclvVXi_r-6" value="Kafka Queue" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4bt97GnRVWRMclvVXi_r-10" value="Underwriting Microservice" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="390" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4bt97GnRVWRMclvVXi_r-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4bt97GnRVWRMclvVXi_r-10" target="4bt97GnRVWRMclvVXi_r-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="320" as="sourcePoint" />
+            <mxPoint x="450" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4bt97GnRVWRMclvVXi_r-12" value="Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry y="200" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4bt97GnRVWRMclvVXi_r-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4bt97GnRVWRMclvVXi_r-15" target="4bt97GnRVWRMclvVXi_r-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4bt97GnRVWRMclvVXi_r-15" value="Apigee" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="570" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4bt97GnRVWRMclvVXi_r-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4bt97GnRVWRMclvVXi_r-10" target="4bt97GnRVWRMclvVXi_r-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="320" as="sourcePoint" />
+            <mxPoint x="450" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4bt97GnRVWRMclvVXi_r-21" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="450" y="350" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4bt97GnRVWRMclvVXi_r-22" value="Advisor Worskspace(Salesforce)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="220" y="510" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4bt97GnRVWRMclvVXi_r-23" value="Advisor Portal (Webseal/ISM)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="570" y="490" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
