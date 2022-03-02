@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T20:40:30.664Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" version="16.6.5" etag="fK6SWsDvjTRvxJz1sDPJ" type="github"><diagram id="gRjOwuB29-VFkN8uOQms">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-02T23:28:41.452Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="KPxFnpFOVyk9T8WX3IQj" version="16.6.5" type="github">
+  <diagram id="gRjOwuB29-VFkN8uOQms" name="Page-1">
+    <mxGraphModel dx="927" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fylG1N_Zji-tFmaSgldP-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fylG1N_Zji-tFmaSgldP-1" target="fylG1N_Zji-tFmaSgldP-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fylG1N_Zji-tFmaSgldP-1" value="WebApp" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="230" y="70" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fylG1N_Zji-tFmaSgldP-2" value="AURA (AFO &amp;amp; ABO)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="640" y="70" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fylG1N_Zji-tFmaSgldP-5" value="Siebel (Advisor system)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="230" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fylG1N_Zji-tFmaSgldP-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fylG1N_Zji-tFmaSgldP-6" target="fylG1N_Zji-tFmaSgldP-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fylG1N_Zji-tFmaSgldP-6" value="Interfaces &amp;amp; Services (Advisor API, ..)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="220" width="540" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fylG1N_Zji-tFmaSgldP-7" value="CIS (client information system)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="345" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fylG1N_Zji-tFmaSgldP-8" value="Policy Admin Systems (5)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="460" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fylG1N_Zji-tFmaSgldP-9" value="MDM" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="345" y="490" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fylG1N_Zji-tFmaSgldP-11" value="Payment System" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="580" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fylG1N_Zji-tFmaSgldP-12" value="MESH/APIGEE/PubSub" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="300" width="540" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fylG1N_Zji-tFmaSgldP-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fylG1N_Zji-tFmaSgldP-13" target="fylG1N_Zji-tFmaSgldP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fylG1N_Zji-tFmaSgldP-13" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="120" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fylG1N_Zji-tFmaSgldP-18" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="60" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
